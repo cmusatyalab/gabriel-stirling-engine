@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sterling</string>
+    <string name="sending">Sending</string>
+    <string name="instruction_view_description">Depiction of next state</string>
+    <string name="crop_view_description">Latest crop from object detector</string>
+    <string name="goal">Goal:</string>
+    <string name="your_progress">Your Progress:</string>
+</resources>

@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+package sterling;
+
+option java_package = "edu.cmu.cs.sterling";
+option java_outer_classname = "Protos";
+
+enum Step {
+    START = 0;
+    FOURSCREWS = 1;
+    THREESCREWS = 2;
+    TWOSCREWS = 3;
+    TWOSCREWSVISIBLE = 4;
+    ONESCREW = 5;
+    NOSCREWS = 6;
+    NOPAD = 7;
+    NORING = 8;
+    NOCYLINDER = 9;
+    NOPISTON = 10;
+    TWORODS = 11;
+    FIRSTRODOFF = 12;
+    ONEROD = 13;
+    SECONDRODON = 14;
+    NOROD = 15;
+    TWOWHEELS = 16;
+    ONEWHEEL = 17;
+    NOWHEEL = 18;
+    NOSHAFT = 19;
+    TWOSCREWS_BASE = 20;
+    ONESCREW_BASE = 21;
+    NOSCREW_BASE = 22;
+    FINISHED = 23;
+    DONE = 24;
+}
+
+enum ViewfinderChange {
+    TurnOn = 0;
+    TurnOff = 1;
+    DoNothing = 2;
+}
+
+enum ViewfinderStatus {
+    IsOn = 0;
+    IsOff = 1;
+}
+
+message ToServerExtras {
+    Step step = 1;
+    int32 frames_same_hash = 2;
+    int32 frames_completed_step = 3;
+    ViewfinderStatus viewfinder_status = 4;
+    int32 detected_frames = 5;
+    int32 undetected_frames = 6;
+    bool go_back = 7;
+    string last_hash = 8;
+    bool last_frame_undetected = 10;
+}
+
+
+message ToClientExtras {
+    Step step = 1;
+    bytes image = 2;
+    string speech = 3;
+    int32 frames_same_hash = 4;
+    int32 frames_completed_step = 5;
+    ViewfinderChange viewfinder_change = 6;
+    int32 detected_frames = 7;
+    int32 undetected_frames = 8;
+    string last_hash = 9;
+    bool last_frame_undetected = 10;
+}
