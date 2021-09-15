@@ -4,6 +4,8 @@ A wearable cognitive assistance application for a Stirling engine. You can buy
 the kit to use this application
 [here](https://www.amazon.com/DjuiinoStar-Hot-Stirling-Engine-Assembly/dp/B07PMBPZFV).
 
+[Demo Video](https://youtu.be/tU8jyDh_DGs)
+
 Images are processed using the TensorFlow
 [implementation](https://github.com/tensorflow/models/blob/aa3e639f80c2967504310b0f578f0f00063a8aff/research/object_detection/meta_architectures/faster_rcnn_meta_arch.py)
 of Faster R-CNN. Cropped bouding boxes are classified using
