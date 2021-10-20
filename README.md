@@ -43,7 +43,9 @@ the server for the Google glass client.
 
 Both clients can be opened as a project using Android Studio. The client for an
 Android phone is in the `phone-app` directory, and the client for a Google Glass
-is in the `glass-app` directory. The Google Glass client has been tested on a
+is in the `glass-app` directory. Add the line `gabrielHost="THE_SERVER_HOST"` to
+`local.properties` for the respective client. The Google Glass client has been
+tested on a
 Google Glass Enterprise Edition 2. It will not work on the earlier Explorer
 Edition.
 

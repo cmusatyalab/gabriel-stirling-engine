@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='sterling',
   syntax='proto3',
   serialized_options=_b('\n\023edu.cmu.cs.sterlingB\006Protos'),
-  serialized_pb=_b('\n\x0esterling.proto\x12\x08sterling\"\x95\x02\n\x0eToServerExtras\x12\x1c\n\x04step\x18\x01 \x01(\x0e\x32\x0e.sterling.Step\x12\x18\n\x10\x66rames_same_hash\x18\x02 \x01(\x05\x12\x1d\n\x15\x66rames_completed_step\x18\x03 \x01(\x05\x12\x35\n\x11viewfinder_status\x18\x04 \x01(\x0e\x32\x1a.sterling.ViewfinderStatus\x12\x17\n\x0f\x64\x65tected_frames\x18\x05 \x01(\x05\x12\x19\n\x11undetected_frames\x18\x06 \x01(\x05\x12\x0f\n\x07go_back\x18\x07 \x01(\x08\x12\x11\n\tlast_hash\x18\x08 \x01(\t\x12\x1d\n\x15last_frame_undetected\x18\n \x01(\x08\"\xa3\x02\n\x0eToClientExtras\x12\x1c\n\x04step\x18\x01 \x01(\x0e\x32\x0e.sterling.Step\x12\r\n\x05image\x18\x02 \x01(\x0c\x12\x0e\n\x06speech\x18\x03 \x01(\t\x12\x18\n\x10\x66rames_same_hash\x18\x04 \x01(\x05\x12\x1d\n\x15\x66rames_completed_step\x18\x05 \x01(\x05\x12\x35\n\x11viewfinder_change\x18\x06 \x01(\x0e\x32\x1a.sterling.ViewfinderChange\x12\x17\n\x0f\x64\x65tected_frames\x18\x07 \x01(\x05\x12\x19\n\x11undetected_frames\x18\x08 \x01(\x05\x12\x11\n\tlast_hash\x18\t \x01(\t\x12\x1d\n\x15last_frame_undetected\x18\n \x01(\x08*\xf6\x02\n\x04Step\x12\t\n\x05START\x10\x00\x12\x0e\n\nFOURSCREWS\x10\x01\x12\x0f\n\x0bTHREESCREWS\x10\x02\x12\r\n\tTWOSCREWS\x10\x03\x12\x14\n\x10TWOSCREWSVISIBLE\x10\x04\x12\x0c\n\x08ONESCREW\x10\x05\x12\x0c\n\x08NOSCREWS\x10\x06\x12\t\n\x05NOPAD\x10\x07\x12\n\n\x06NORING\x10\x08\x12\x0e\n\nNOCYLINDER\x10\t\x12\x0c\n\x08NOPISTON\x10\n\x12\x0b\n\x07TWORODS\x10\x0b\x12\x0f\n\x0b\x46IRSTRODOFF\x10\x0c\x12\n\n\x06ONEROD\x10\r\x12\x0f\n\x0bSECONDRODON\x10\x0e\x12\t\n\x05NOROD\x10\x0f\x12\r\n\tTWOWHEELS\x10\x10\x12\x0c\n\x08ONEWHEEL\x10\x11\x12\x0b\n\x07NOWHEEL\x10\x12\x12\x0b\n\x07NOSHAFT\x10\x13\x12\x12\n\x0eTWOSCREWS_BASE\x10\x14\x12\x11\n\rONESCREW_BASE\x10\x15\x12\x10\n\x0cNOSCREW_BASE\x10\x16\x12\x0c\n\x08\x46INISHED\x10\x17\x12\x08\n\x04\x44ONE\x10\x18*:\n\x10ViewfinderChange\x12\n\n\x06TurnOn\x10\x00\x12\x0b\n\x07TurnOff\x10\x01\x12\r\n\tDoNothing\x10\x02*\'\n\x10ViewfinderStatus\x12\x08\n\x04IsOn\x10\x00\x12\t\n\x05IsOff\x10\x01\x42\x1d\n\x13\x65\x64u.cmu.cs.sterlingB\x06Protosb\x06proto3')
+  serialized_pb=_b('\n\x0esterling.proto\x12\x08sterling\"\xf6\x01\n\x0eToServerExtras\x12\x1c\n\x04step\x18\x01 \x01(\x0e\x32\x0e.sterling.Step\x12\x18\n\x10\x66rames_same_hash\x18\x02 \x01(\x05\x12\x1d\n\x15\x66rames_completed_step\x18\x03 \x01(\x05\x12\x35\n\x11viewfinder_status\x18\x04 \x01(\x0e\x32\x1a.sterling.ViewfinderStatus\x12\x17\n\x0f\x64\x65tected_frames\x18\x05 \x01(\x05\x12\x19\n\x11undetected_frames\x18\x06 \x01(\x05\x12\x0f\n\x07go_back\x18\x07 \x01(\x08\x12\x11\n\tlast_hash\x18\x08 \x01(\t\"\x84\x02\n\x0eToClientExtras\x12\x1c\n\x04step\x18\x01 \x01(\x0e\x32\x0e.sterling.Step\x12\r\n\x05image\x18\x02 \x01(\x0c\x12\x0e\n\x06speech\x18\x03 \x01(\t\x12\x18\n\x10\x66rames_same_hash\x18\x04 \x01(\x05\x12\x1d\n\x15\x66rames_completed_step\x18\x05 \x01(\x05\x12\x35\n\x11viewfinder_change\x18\x06 \x01(\x0e\x32\x1a.sterling.ViewfinderChange\x12\x17\n\x0f\x64\x65tected_frames\x18\x07 \x01(\x05\x12\x19\n\x11undetected_frames\x18\x08 \x01(\x05\x12\x11\n\tlast_hash\x18\t \x01(\t*\xf6\x02\n\x04Step\x12\t\n\x05START\x10\x00\x12\x0e\n\nFOURSCREWS\x10\x01\x12\x0f\n\x0bTHREESCREWS\x10\x02\x12\r\n\tTWOSCREWS\x10\x03\x12\x14\n\x10TWOSCREWSVISIBLE\x10\x04\x12\x0c\n\x08ONESCREW\x10\x05\x12\x0c\n\x08NOSCREWS\x10\x06\x12\t\n\x05NOPAD\x10\x07\x12\n\n\x06NORING\x10\x08\x12\x0e\n\nNOCYLINDER\x10\t\x12\x0c\n\x08NOPISTON\x10\n\x12\x0b\n\x07TWORODS\x10\x0b\x12\x0f\n\x0b\x46IRSTRODOFF\x10\x0c\x12\n\n\x06ONEROD\x10\r\x12\x0f\n\x0bSECONDRODON\x10\x0e\x12\t\n\x05NOROD\x10\x0f\x12\r\n\tTWOWHEELS\x10\x10\x12\x0c\n\x08ONEWHEEL\x10\x11\x12\x0b\n\x07NOWHEEL\x10\x12\x12\x0b\n\x07NOSHAFT\x10\x13\x12\x12\n\x0eTWOSCREWS_BASE\x10\x14\x12\x11\n\rONESCREW_BASE\x10\x15\x12\x10\n\x0cNOSCREW_BASE\x10\x16\x12\x0c\n\x08\x46INISHED\x10\x17\x12\x08\n\x04\x44ONE\x10\x18*:\n\x10ViewfinderChange\x12\n\n\x06TurnOn\x10\x00\x12\x0b\n\x07TurnOff\x10\x01\x12\r\n\tDoNothing\x10\x02*\'\n\x10ViewfinderStatus\x12\x08\n\x04IsOn\x10\x00\x12\t\n\x05IsOff\x10\x01\x42\x1d\n\x13\x65\x64u.cmu.cs.sterlingB\x06Protosb\x06proto3')
 )
 
 _STEP = _descriptor.EnumDescriptor(
@@ -133,8 +133,8 @@ _STEP = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=603,
-  serialized_end=977,
+  serialized_start=541,
+  serialized_end=915,
 )
 _sym_db.RegisterEnumDescriptor(_STEP)
 
@@ -160,8 +160,8 @@ _VIEWFINDERCHANGE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=979,
-  serialized_end=1037,
+  serialized_start=917,
+  serialized_end=975,
 )
 _sym_db.RegisterEnumDescriptor(_VIEWFINDERCHANGE)
 
@@ -183,8 +183,8 @@ _VIEWFINDERSTATUS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1039,
-  serialized_end=1078,
+  serialized_start=977,
+  serialized_end=1016,
 )
 _sym_db.RegisterEnumDescriptor(_VIEWFINDERSTATUS)
 
@@ -285,13 +285,6 @@ _TOSERVEREXTRAS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='last_frame_undetected', full_name='sterling.ToServerExtras.last_frame_undetected', index=8,
-      number=10, type=8, cpp_type=7, label=1,
-      has_default_value=False, default_value=False,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -305,7 +298,7 @@ _TOSERVEREXTRAS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=29,
-  serialized_end=306,
+  serialized_end=275,
 )
 
 
@@ -379,13 +372,6 @@ _TOCLIENTEXTRAS = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='last_frame_undetected', full_name='sterling.ToClientExtras.last_frame_undetected', index=9,
-      number=10, type=8, cpp_type=7, label=1,
-      has_default_value=False, default_value=False,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -398,8 +384,8 @@ _TOCLIENTEXTRAS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=309,
-  serialized_end=600,
+  serialized_start=278,
+  serialized_end=538,
 )
 
 _TOSERVEREXTRAS.fields_by_name['step'].enum_type = _STEP

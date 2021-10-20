@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
         };
         serverComm = ServerComm.createServerComm(
-                consumer, "cloudlet026.elijah.cs.cmu.edu", PORT, getApplication(), onDisconnect);
+                consumer, BuildConfig.GABRIEL_HOST, PORT, getApplication(), onDisconnect);
 
 
 

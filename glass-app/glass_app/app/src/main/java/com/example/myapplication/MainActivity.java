@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements OnGestureListener
             finish();
         };
         serverComm = ServerComm.createServerComm(
-                consumer, "cloudlet026.elijah.cs.cmu.edu", PORT, getApplication(), onDisconnect);
+                consumer, BuildConfig.GABRIEL_HOST, PORT, getApplication(), onDisconnect);
 
         TextToSpeech.OnInitListener onInitListener = i -> {
             textToSpeech.setLanguage(Locale.US);
