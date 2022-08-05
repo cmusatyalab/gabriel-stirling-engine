@@ -54,3 +54,12 @@ pinch gesture on the main viewfinder. The Glass client does not have any way to
 zoom. CameraX does not appear to support zooming with any Glass gestures.
 Therefore, the Glass client will only work if the camera is held close to the
 Stirling engine.
+
+## Open Workflow Version
+
+We also created a version of this application that walks users through
+assembling the engine, rather than disassembling it.
+This runs using the code in the
+[TwoStageOWF repository](https://github.com/cmusatyalab/TwoStageOWF).
+You can download the accompanying files
+[here](https://owncloud.cmusatyalab.org/owncloud/index.php/s/VLFP9UIPqYND2aX).
